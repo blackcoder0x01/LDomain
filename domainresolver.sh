@@ -1,7 +1,7 @@
 #!/bin/bash
 if [ ! "$1" ]; then
 	echo "Missing parameter"
-	echo "Please Used ./resolve.sh weblist.txt output-folder-location"
+	echo "Please Used ./domainresolve.sh weblist.txt output-folder-location"
 	exit 1
 fi
 cat $1 | sort -u | while read line; do
