@@ -7,7 +7,7 @@ SECONDS=0
 
 if [ ! "$1" ]; then
 	echo "Missing parameter"
-	echo "Please Used ./ldomain.sh weblist.txt output-folder-location"
+	echo "Please Used ./ldomain.sh domainlist.txt output-folder-location"
 	exit 1
 fi
 cat "$1" | sort -u | while read line; do
