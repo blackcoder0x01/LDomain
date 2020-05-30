@@ -1,5 +1,5 @@
 # Domain-Resolver
 
-chmod 777 ./domainresolver.sh
+chmod 777 ./ldomain.sh
 
-Please Used ./domainresolve.sh weblist.txt output-folder-location
+Please Used ./ldomain.sh weblist.txt output-folder-location
